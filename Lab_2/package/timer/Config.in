@@ -1,0 +1,5 @@
+config BR2_PACKAGE_TIMER
+	  bool "timer"
+	  select BR2_PACKAGE_LIBGPIOD
+	  help
+	    This is just a simple timer application with lap function

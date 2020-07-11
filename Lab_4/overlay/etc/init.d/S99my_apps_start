@@ -1,0 +1,9 @@
+#!/bin/sh
+
+mpc update
+mpc clear
+mpc add /
+mpc repeat 1
+screen -m -d /usr/bin/python3 /opt/music_player.py
+screen -m -d /usr/bin/python3 /opt/webservice.py
+
